@@ -73,8 +73,8 @@ public class DataMocker {
         for(int i=0;i<100;i++){
             DetailEntry entry = new DetailEntry();
             entry.title = "this is item "+i;
-            if(i % 3 == 0){
-                entry.imageUrl = "http://www.8kmm.com/UploadFiles/2012/8/201208140920132659.jpg";
+            if(i % 2 == 0){
+                entry.imageUrl = "http://img1.imgtn.bdimg.com/it/u=2899492451,3422113638&fm=27&gp=0.jpg";
 
             }else{
                 entry.imageUrl = "http://img2.3lian.com/2014/f2/37/d/40.jpg";

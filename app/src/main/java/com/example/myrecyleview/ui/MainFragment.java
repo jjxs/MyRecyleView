@@ -1,8 +1,10 @@
-package com.example.myrecyleview;
+package com.example.myrecyleview.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.example.myrecyleview.DataMocker;
+import com.example.myrecyleview.R;
 import com.example.myrecyleview.cell.BannerCell;
 import com.example.myrecyleview.cell.ImageCell;
 import com.example.myrecyleview.cell.TextCell;
